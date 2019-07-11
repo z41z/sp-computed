@@ -1,0 +1,24 @@
+{
+  "name": "sp-computed",
+  "version": "1.0.1",
+  "description": "Computed for firefight",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build && webpack --mode production --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/z41z/sp-computed.git"
+  },
+  "keywords": [
+    "sp-computed"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/z41z/sp-computed/issues"
+  },
+  "homepage": "https://github.com/z41z/sp-computed#readme",
+  "devDependencies": {
+  }
+}
