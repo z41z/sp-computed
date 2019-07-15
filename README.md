@@ -315,7 +315,7 @@ Common computed function for firefighter
     // return 5000.00
   ```
 
-* pmmhyscbgs(obj = {}) 泡沫量(L/s)=燃烧面积(㎡)*供给强度(L/(s*㎡))（适用于普通蛋白、氟蛋白、水成膜、抗溶性泡沫等，且包括固定鼎立式罐、浮顶罐、流淌火的场合）
+* pmmhyscbgs(obj = {}) 泡沫灭火用水常备估算(L/s)=燃烧面积(㎡)*供给强度(L/(s*㎡))（适用于普通蛋白、氟蛋白、水成膜、抗溶性泡沫等，且包括固定鼎立式罐、浮顶罐、流淌火的场合）
   * {Object} obj
     * {Number} obj.rate = 0.94 混合液中含水率
     * {Number} obj.strength 混合液供给强度L/(min*㎡)
@@ -456,7 +456,7 @@ Common computed function for firefighter
     // return 960.00
   ```
 
-* ytzhglqysl(obj = {}) 甲乙丙类液体邻近罐冷却用水量(L/s)=冷却范围系数*邻近罐数量(个)*燃烧面积(㎡)*供给强度(L/(s*㎡))
+* ytzhglqysl(obj = {}) 甲乙丙类液体着火罐冷却用水量(L/s)=冷却范围系数*邻近罐数量(个)*燃烧面积(㎡)*供给强度(L/(s*㎡))
   * {Object} obj
   * {Number} obj.fireNum 临近罐数量(个)
   * {Number} obj.strength 供给强度L/(s*㎡)
